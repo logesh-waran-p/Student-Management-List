@@ -1,0 +1,30 @@
+2023-06-16T11:06:47.678+05:30  INFO 17616 --- [main] c.s.student.StudentslistApplication      : Starting StudentslistApplication using Java 17.0.1 with PID 17616 (E:\internshala web development\spring boot work space\studentslist\target\classes started by ACER in E:\internshala web development\spring boot work space\studentslist)
+2023-06-16T11:06:47.684+05:30  INFO 17616 --- [main] c.s.student.StudentslistApplication      : No active profile set, falling back to 1 default profile: "default"
+2023-06-16T11:06:48.741+05:30  INFO 17616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-06-16T11:06:48.822+05:30  INFO 17616 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 71 ms. Found 1 JPA repository interfaces.
+2023-06-16T11:06:49.389+05:30  INFO 17616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2023-06-16T11:06:49.406+05:30  INFO 17616 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-06-16T11:06:49.406+05:30  INFO 17616 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.8]
+2023-06-16T11:06:49.536+05:30  INFO 17616 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-06-16T11:06:49.537+05:30  INFO 17616 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1793 ms
+2023-06-16T11:06:49.711+05:30  INFO 17616 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-06-16T11:06:49.765+05:30  INFO 17616 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.2.2.Final
+2023-06-16T11:06:49.767+05:30  INFO 17616 --- [main] org.hibernate.cfg.Environment            : HHH000406: Using bytecode reflection optimizer
+2023-06-16T11:06:49.904+05:30  INFO 17616 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-16T11:06:50.037+05:30  INFO 17616 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2023-06-16T11:06:50.053+05:30  INFO 17616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2023-06-16T11:06:50.229+05:30  INFO 17616 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@3ee6dc82
+2023-06-16T11:06:50.232+05:30  INFO 17616 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2023-06-16T11:06:50.280+05:30  INFO 17616 --- [main] org.hibernate.orm.dialect                : HHH035001: Using dialect: org.hibernate.dialect.MySQL8Dialect, version: 8.0
+2023-06-16T11:06:50.281+05:30  WARN 17616 --- [main] org.hibernate.orm.deprecation            : HHH90000026: MySQL8Dialect has been deprecated; use org.hibernate.dialect.MySQLDialect instead
+2023-06-16T11:06:50.478+05:30  INFO 17616 --- [main] o.h.b.i.BytecodeProviderInitiator        : HHH000021: Bytecode provider name : bytebuddy
+2023-06-16T11:06:51.118+05:30  INFO 17616 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-06-16T11:06:51.170+05:30  INFO 17616 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T11:06:51.447+05:30  WARN 17616 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-06-16T11:06:51.805+05:30  INFO 17616 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path ''
+2023-06-16T11:06:51.815+05:30  INFO 17616 --- [main] c.s.student.StudentslistApplication      : Started StudentslistApplication in 4.897 seconds (process running for 6.009)
+2023-06-16T11:07:30.147+05:30  INFO 17616 --- [RMI TCP Connection(3)-127.0.0.1] inMXBeanRegistrar$SpringApplicationAdmin : Application shutdown requested.
+2023-06-16T11:07:30.186+05:30  INFO 17616 --- [RMI TCP Connection(3)-127.0.0.1] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-06-16T11:07:30.209+05:30  INFO 17616 --- [RMI TCP Connection(3)-127.0.0.1] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-06-16T11:07:30.215+05:30  INFO 17616 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2023-06-16T11:07:30.240+05:30  INFO 17616 --- [RMI TCP Connection(3)-127.0.0.1] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
